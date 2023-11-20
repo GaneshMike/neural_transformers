@@ -1,0 +1,65 @@
+@import '../../palette.scss';
+
+.course {
+    height: 100%;
+    border: 1px solid $light-gray;
+    border-radius: 5px;
+    background-color: $white;
+    box-shadow: 1px 1px 1px $light-gray;
+    cursor: pointer;
+
+    &:hover {
+        .course-image {
+            img {
+                overflow: hidden;
+                transform: scale(1.2);
+                transition-duration: .5s;
+            }            
+        }
+    }
+
+    .course-image {
+        border-bottom: 1px solid $light-gray;    
+        overflow: hidden;    
+        img {
+            width: 100%;
+            height: 150px;            
+            display: block;
+            margin: 0 auto;
+        }
+    }    
+
+    .course-content {
+        padding: .5rem;
+
+        h5 {
+            color: $primary-color-1;
+            
+            &:after {
+                content: "";
+                width: 15%;
+                height: 2px;
+                background-color: $primary-color-2;
+                display: block;
+                border-radius: 5px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            text-align: right;
+            width: 100%;
+            display: block;
+            color: $primary-color-1;
+        }
+
+        .duration {
+            // color: $primary-color-2;
+        }
+
+        .description {
+            padding: .5em 0;
+            text-align: justify;
+        }
+    }    
+}

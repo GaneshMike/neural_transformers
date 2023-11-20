@@ -1,0 +1,59 @@
+@import './../../palette.scss';
+
+.transformers-banner {
+    width: 100%;
+    height: 450px;
+    background-image: url('../../assets/banner.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9rem 0 0 8rem;
+    border-bottom: 3rem solid $white-opacity-80;
+
+    .transformers-banner-title {
+        color: $white;
+        font-size: 42px;
+        line-height: 63px;
+        letter-spacing: 2px;
+
+        .banner-bold {
+            font-weight: 600;
+            font-size: inherit;
+            color: $primary-color-2;
+            background: $white-opacity-80;
+            padding: 0.25rem 0.5rem;
+            border-radius: 3px;
+        }
+    }
+
+    .transformers-banner-btn {
+        background-color: $primary-color-2;
+        color: $white;
+        border: 1px solid $primary-color-2;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .transformers-banner {
+        padding: 1rem;
+        height: auto;
+        border-bottom: 0px !important;
+
+        .transformers-banner-title {
+            font-size: 100%;
+            line-height: 150%;
+        }
+
+        .transformers-banner-btn {
+            font-size: 10px;
+            padding: 5px;
+        }
+
+        .ruler {
+            border-width: 1px;
+            margin: .5rem;
+        }
+    }    
+}

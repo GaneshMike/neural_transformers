@@ -1,0 +1,97 @@
+@import "../../palette.scss";
+
+.transformers-about {
+  &.left-bg {
+    padding: 2rem;
+    background-image: url("../../assets/logo.jpg");
+    background-size: 25%;
+    background-position-x: 20%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid $primary-color-2;
+
+    .transformers-about-content {
+      padding: 3rem 4rem;
+    }
+  }
+
+  &.half-white-bg {
+    background-color: $half-white;
+
+    .transformers-about-content {
+      h2 {
+        &:after {
+          width: 3%;
+          height: 2px;
+          display: block;
+          content: "";
+          background-color: $primary-color-2;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  .transformers-about-content {
+    background-color: $white-opacity-70;
+    border-radius: 5px;
+
+    h4 {
+      color: $primary-color-2;
+      font-size: 32px;
+      margin-bottom: 2rem;
+
+      &::after {
+        content: "";
+        position: relative;
+        width: 50%;
+        height: 3px;
+        background: $primary-color-1;
+        display: block;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 170%;
+
+      span {
+        font-size: inherit;
+        color: $primary-color-2;
+      }
+    }
+  }
+
+  .transformers-work-culture {
+    h6 {
+        font-weight: 600;
+        color: $grey;
+    }
+    li {
+      color: $grey;
+      line-height: 200%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .transformers-about {
+    &.left-bg {
+      padding: 0;
+      background-image: none;
+    }
+
+    .transformers-about-content {
+      padding: 1rem !important;
+
+      p {
+        font-size: 14px;
+      }
+
+      h4 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

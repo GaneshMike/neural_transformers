@@ -1,0 +1,45 @@
+@import "../../palette.scss";
+
+.transformers-contact {
+    background-color: $half-white;
+    padding-top: 1rem;
+    padding-bottom: 12rem;
+    h2 {
+        &:after {
+          width: 3%;
+          height: 2px;
+          display: block;
+          content: "";
+          background-color: $primary-color-2;
+          margin: auto;
+        }
+      }
+    i {
+        color: $primary-color-2;
+    }
+
+    label {
+        color: $grey;
+    }
+
+    input, select {
+        background-color: transparent;
+        &:active, &:focus {
+            outline: none;
+            box-shadow: none;
+            border-color: $primary-color-2;
+            background-color: transparent;
+        }
+    }
+
+    button {
+        background-color: $primary-color-2;
+        border-color: $primary-color-2;
+
+        &:hover {
+            background-color: $half-white;
+            color: $primary-color-2;
+            border-color: $primary-color-2;
+        }
+    }
+}

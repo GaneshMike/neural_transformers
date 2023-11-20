@@ -1,0 +1,66 @@
+@import "../../palette.scss";
+
+.transformers-services {
+  border-top: 2px solid $primary-color-1;
+  border-bottom: 2px solid $primary-color-2;
+  h2 {
+    &:after {
+      width: 3%;
+      height: 2px;
+      display: block;
+      content: "";
+      background-color: $primary-color-2;
+      margin: auto;
+    }
+  }
+  section {
+    padding: 3rem;
+    &:nth-child(even) {
+      h3 {
+        text-align: right;
+        color: $primary-color-2;
+      }
+
+      p {
+        padding-left: 40rem;
+      }
+    }
+
+    &:nth-child(odd) {
+      background-color: $half-white;
+      h3 {
+        color: $primary-color-2;
+      }
+
+      p {
+        padding-right: 40rem;
+      }
+    }
+
+    h3,
+    p {
+      padding: 0.5rem;
+      text-align: justify;
+    }
+
+    p {
+      color: $grey;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    &:nth-child(odd) {      
+      p {
+        padding-right: 0rem !important;
+      }
+    }
+  
+    &:nth-child(even) {       
+      p {
+        padding-left: 0rem !important;
+      }
+    }
+  }
+}

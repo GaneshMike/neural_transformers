@@ -1,0 +1,23 @@
+@import "../../palette.scss";
+
+.transformers-course-list {
+  background-color: $half-white;
+  h2 {
+    &:after {
+      width: 3%;
+      height: 2px;
+      display: block;
+      content: "";
+      background-color: $primary-color-2;
+      margin: auto;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    text-align: right;
+    width: 100%;
+    display: block;
+    color: $primary-color-2;
+  }
+}

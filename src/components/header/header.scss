@@ -1,0 +1,86 @@
+@import '../../palette.scss';
+
+.transformers-header {
+    .navbar {
+        background-color: $white;
+
+        .logo-title {
+            font-size: 14px;
+        }
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    li {
+        padding: 0 15px;
+
+        a {
+            color: $grey;
+            position: sticky;
+
+            &::after {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                right: 0;
+                width: 0;
+                bottom: 0px;
+                background: $primary-color-1;
+                height: 3px;
+                transition-property: width;
+                transition-duration: 0.3s;
+                transition-timing-function: ease-out;
+            }
+
+            &:hover, &:focus {
+                color: $primary-color-1;
+            }
+
+            &:hover::after {
+                left: 0;
+                right: auto;
+                width: 75%;
+            }
+        }
+
+        .active {
+            color: $primary-color-2 !important;
+        }
+    }
+
+    .transformers-register{
+        background-color: $white;
+        color: $primary-color-1;
+        border-color: $primary-color-1;
+
+        &:hover, &:focus {
+            outline: none;
+            box-shadow: none;
+            color: $white;
+            background-color: $primary-color-1;
+            transition: 0.5s;
+        }
+    }
+
+    .navbar-toggler {
+        &:focus, &:active {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        li {
+            a {
+                &::after {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "35abfa90-4fdb-11ee-be56-0242ac120002",
+        "title": "Data Science",
+        "duration": "3-4 Months",
+        "image": "datascience",
+        "modules": "7",
+        "rating": 0,
+        "description": "Our Data Science training program covers a wide range of topics, including data manipulation, statistical analysis, machine learning, and data visualization. Through hands-on projects and real-world case studies, you'll gain practical experience in solving data-driven problems and extracting meaningful insights."
+    },
+    {
+        "id": "35abfd74-4fdb-11ee-be56-0242ac120002",
+        "title": "Data Analysis",
+        "duration": "3-4 Months",
+        "image": "dataanalysis",
+        "modules": "7",
+        "rating": 0,
+        "description": "Our Data Analysis training program focuses on mastering the techniques and tools used to extract insights from data. From data cleaning and preprocessing to exploratory data analysis and visualization, you'll learn how to uncover patterns and trends to support data-driven decision-making."
+    },
+    {
+        "id": "35abfed2-4fdb-11ee-be56-0242ac120002",
+        "title": "Full Stack .NET Development",
+        "duration": "3-4 Months",
+        "image": "dotnet",
+        "modules": "7",
+        "rating": 0,
+        "description": "In our Full Stack .NET Development program, you'll learn the fundamentals of web development using the .NET framework. From front-end technologies like HTML, CSS, and JavaScript to back-end development with C# and ASP.NET, you'll gain the skills needed to build robust and scalable web applications."
+    },
+    {
+        "id": "35ac0012-4fdb-11ee-be56-0242ac120002",
+        "title": "Python",
+        "duration": "3-4 Months",
+        "image": "python",
+        "modules": "7",
+        "rating": 0,
+        "description": "Our Python training program is designed for beginners who want to learn one of the most popular programming languages. You'll explore Python's syntax, data structures, control flow, and object-oriented programming concepts. Additionally, you'll work on hands-on projects to apply your Python skills."
+    },
+    {
+        "id": "35ac0148-4fdb-11ee-be56-0242ac120002",
+        "title": "SQL",
+        "duration": "3-4 Months",
+        "image": "sql",
+        "modules": "7",
+        "rating": 0,
+        "description": "Our SQL training program focuses on teaching you the fundamentals of database management and querying using SQL. You'll learn how to create, manipulate, and retrieve data from databases, and gain a solid understanding of database concepts and normalization principles."
+    },
+    {
+        "id": "35ac0526-4fdb-11ee-be56-0242ac120002",
+        "title": " Azure Certifications (AZ104, AZ400):",
+        "duration": "3-4 Months",
+        "image": "azure",
+        "modules": "7",
+        "rating": 0,
+        "description": "We offer comprehensive training programs for Azure certifications, including AZ104 (Microsoft Azure Administrator) and AZ400 (Microsoft Azure DevOps Engineer). These programs cover various aspects of Azure cloud services, administration, deployment, and automation, providing you with the skills needed to excel in the cloud computing domain."
+    }
+]
